@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+html{
+    font-size:16px;
+}
+body{
+    background: #f4f4f4;
+}
+.container{
+    background: white;
+    margin:0 auto;
+    max-width: 800px;
+}
+.header{
+    background: url('../img/logo2.jpg') no-repeat;
+    background-size: contain;
+    height: 250px;
+    color: darkgreen;
+    background-color: darkseagreen;
+    padding: 70px 0 0 300px;
+    text-transform: uppercase;
+    font-size: 5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+.sidebar{
+    width: 21%;
+    float: left;
+    background: black;
+}
+.content{
+    float: left;
+    background: white;
+    width: 79%  ;
+}
+.nyuszi{
+    background: black;
+}
+.nyuszi::after {
+    content: "";
+    clear: both;
+    display: table; 
+}
+.footer{
+    text-align: center;
+    background: darkgreen;
+    color: white;
+}
+.block{
+    padding: 0 0 50px 10px;
+}
+.block h3{
+    color: white;
+    font-size: .8rem;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.block ul{
+    list-style-type: none;
+}
+.block ul li a{
+    padding: 5px 0 5px 0;
+    text-decoration: none;
+    color: darkgreen;
+    font-size: .8rem;
+    display: inline-block;
+}
+.block ul li a:hover{
+    color: white;
+}
+.content{
+    padding: 10px 60px 10px 10px;
+}
+.content p{
+    text-align: justify;
+    line-height: 1.5;
+    color: darkgreen;
+}
+.content .news h2{
+    background: #ddd;
+    color: white;
+    padding: 3px 10px;
+}
+.news{
+    margin-bottom: 50px;
+}
+.news p img{
+    float: left;
+    padding: 0 10px 5px 0;
+}
